@@ -1,0 +1,165 @@
+.footer{
+    background: rgba( 27, 27, 27, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 0px;
+    border: 0 solid rgba( 255, 255, 255, 0.18 );
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.container__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icones__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-3x{
+    border-radius: 5px;
+    color: #C4C4C4;
+    transition: 0.3s ease-in-out;
+}
+
+.trabalhe__footer{
+    color: #C4C4C4;
+    transition: 0.3s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.fa-3x:hover, .trabalhe__footer:hover{
+    transform: scale(1.1);
+    color: #848484;
+}
+
+.footer__logo{
+    height: 80px;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #C4C4C4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.copyright__texto{
+    margin-right: 0.2rem;
+}
+
+.webest{
+    transition: 0.3s ease-in-out;
+}
+
+.webest:hover{
+    transform: scale(1.1);
+    color: #848484;
+}
+
+.fa-square-whatsapp:hover{
+    border-radius: 5px;
+    line-height: 2rem;
+    color: #128c7e;
+    background-color: #fafafa;
+}
+
+.fa-square-instagram:hover{
+    border-radius: 5px;
+    line-height: 1.8rem;
+    color: #C13584;
+    background-color: #fafafa;
+}
+
+.fa-envelope:hover{
+    border-radius: 5px;
+    line-height: 1.8rem;
+    color: #5D95A5;
+    background-color: #000000;
+}
+
+@media screen and (min-width: 0px){      
+    .icones__footer{
+        width: 65%;
+    }
+    
+    .fa-3x{
+        font-size: 2.4rem;
+        line-height: 2.2rem;
+    }
+
+    .trabalhe__footer{
+        font-size: 0.7rem;
+    }
+    
+    .copyright{
+        font-size: 0.5rem;
+    }
+    
+    .footer__logo{
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 758px){
+    .icones__footer{
+        width: 40%;
+    }
+    
+    .fa-3x{
+        font-size: 2.4rem;
+        line-height: 2.2rem;
+    }
+
+    .trabalhe__footer{
+        font-size: 1rem;
+    }
+    
+    .copyright{
+        font-size: 0.75rem;
+    }
+    
+    .footer__logo{
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .icones__footer{
+        width: 35%;
+    }
+    
+    .fa-3x{
+        font-size: 2.4rem;
+        line-height: 1.8rem;
+    }
+
+    .trabalhe__footer{
+        font-size: 1rem;
+    }
+    
+    .copyright{
+        font-size: 0.75rem;
+    }
+    
+    .footer__logo{
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .icones__footer{
+        width: 30%;
+    }
+}

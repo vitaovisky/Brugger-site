@@ -1,0 +1,116 @@
+.servicos{
+    margin-top: 1.2rem;
+}
+
+.servicos__container{
+    display: flex;
+}
+
+.servicos__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.servicos__primeiro{
+    background: url(../img/Rectangle\ 72.svg) no-repeat center / cover;
+}
+
+.servicos__segundo{
+    background: url(../img/Rectangle\ 73.svg) no-repeat center / cover;
+}
+
+.servicos__terceiro{
+    background: url(../img/Rectangle\ 74.svg) no-repeat center / cover;
+}
+
+.servicos__titulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.servico__nome{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (min-width: 0px){
+    .servicos__container{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .servicos__conteudo{
+        height: auto;
+        width: 40%;
+    }
+
+    .servicos__conteudo:last-child{
+        margin-top: 1rem;
+    }    
+
+    .servicos__imagem{
+        width: 2.5rem;
+    }
+
+    .servicos__titulo{
+        font-size: 1.2rem;
+    }
+    
+    .servico__nome{
+        font-size: 1rem;
+        line-height: 1.2rem;
+        margin-bottom: 0.7rem;
+    }
+    
+}
+
+@media screen and (min-width: 758px){
+    
+    .servicos__imagem{
+        width: 3.5rem;
+    }
+
+    .servicos__titulo{
+        font-size: 1.5rem;
+    }
+    
+    .servico__nome{
+        font-size: 1.15rem;
+        line-height: 1.9rem;
+        margin-bottom: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .servicos__container{
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    
+    .servicos__conteudo{
+        height: 70vh;
+        width: 25%;
+    }
+
+    .servicos__conteudo:last-child{
+        margin-top: 0;
+    }    
+    
+    .servicos__imagem{
+        width: 5.5rem;
+    }
+
+    .servicos__titulo{
+        font-size: 1.5rem;
+    }
+    
+    .servico__nome{
+        font-size: 1.15rem;
+        line-height: 1.9rem;
+        margin-bottom: 0.7rem;
+    }
+}

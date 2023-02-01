@@ -1,0 +1,150 @@
+.principal{
+    width: 100%;
+    height: auto;
+    background: url(../img/bgmain.png) no-repeat center / cover;
+}
+
+.container__principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__titulo{
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-shadow: 6px 9px 4px rgba(0, 0, 0, 0.25);
+}
+
+.principal__subtitulo{
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.principal__conteudo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: baseline;
+}
+
+
+.conteudo__texto{
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.linha__conteudo{
+    width: 0px;
+    height: 150px;
+    border: 2px solid #33CCFF;
+    margin-right: 1rem;
+}
+
+@media screen and (min-width: 0px){
+
+    .container__principal{
+        padding-top: 17vh;
+    }
+
+    .principal__titulo{
+        font-size: 1.95rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .principal__subtitulo{
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .principal__conteudo{
+        margin-bottom: 1rem;
+    }
+        
+    .conteudo__texto{
+        font-size: 0.9rem;
+        width: 70%;
+        line-height: 1.2rem;
+        margin-right: 1rem;
+    }
+
+    .conteudo__imagem{
+        width: 100px;
+        margin-right: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 758px){
+    .container__principal{
+        padding-top: 12vh;
+    }
+
+    .principal__titulo{
+        font-size: 2.5rem;
+        margin-bottom: 2.75rem;
+    }
+
+    .principal__subtitulo{
+        font-size: 1.9rem;
+        margin-bottom: 1.75rem;
+    }
+    
+    .principal__conteudo{
+        margin-bottom: 5.5rem;
+    }
+        
+    .conteudo__texto{
+        font-size: 1.35rem;
+        width: 50%;
+        line-height: 1.75rem;
+        margin-right: 1.75rem;
+    }
+
+    .conteudo__imagem{
+        width: 150px;
+        margin-right: 2.75rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    .container__principal{
+        padding-top: 20vh;
+    }
+
+    .principal__titulo{
+        font-size: 2.75rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .principal__subtitulo{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .principal__conteudo{
+        margin-bottom: 2.5rem;
+    }
+    
+    
+    .conteudo__texto{
+        font-size: 1.25rem;
+        width: 40%;
+        line-height: 1.95rem;
+        margin-right: 1.5rem;
+    }
+    
+    .conteudo__imagem{
+        margin-right: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    
+    
+    .conteudo__texto{
+        width: 35%;
+    }
+}

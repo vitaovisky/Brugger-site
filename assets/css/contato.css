@@ -1,0 +1,148 @@
+.contato{
+    width: 100%;
+    margin-top: 2rem;
+    background: url(../img/bgcontato.svg) no-repeat center / cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+
+.contato__titulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+    color: #fafafa;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.contato__form--container{
+    background: #fafafa;
+    box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form__contato{
+    display: flex;
+    flex-direction: column;
+}
+
+.div__form{
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-evenly;
+}
+
+.label__formulario{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgba(14, 43, 87);
+}
+
+.formulario__input{
+    background: rgba(196, 196, 196, 0.29);
+    border: none;
+}
+
+.form__botao{
+    background-color: #33677F;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fafafa;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    align-self: center;
+    margin-right: 4%;
+    transition: 0.3s ease-in-out;
+}
+
+.form__botao:hover{
+    transform: scale(1.03);
+    color: #ffffff;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgba(14, 43, 87);
+}
+
+@media screen and (min-width: 0px){
+
+    .container__contato{
+        width: 90%;
+    }
+    
+    .contato__form--container{
+        width: calc(100% - 2rem);
+        padding: 1rem;
+    }
+    
+    .form__contato{
+        width: 100%;
+    }
+    
+    .div__form{
+        width: 100%;
+    }
+    
+    .label__formulario{
+        width: 20%;
+        font-size: 1.05rem;
+    }
+    
+    .formulario__input{
+        width: 60%;
+    }
+    
+    .form__botao{
+        padding: 1rem;
+        font-size: 1rem;
+        width: 40%;
+        height: 3rem;
+    }
+    
+}
+
+@media screen and (min-width: 758px){
+  
+    .label__formulario{
+        width: 10%;
+        font-size: 1.05rem;
+    }
+    
+    .formulario__input{
+        width: 80%;
+    }
+    
+    .form__botao{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .form__botao{
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .container__contato{
+        width: 70%;
+    }
+    
+    .label__formulario{
+        width: 10%;
+        font-size: 1.35rem;
+    }
+    
+    .formulario__input{
+        width: 85%;
+    }
+    
+    .form__botao{
+        font-size: 1.25rem;
+        width: 20%;
+        height: 3.25rem;
+    }
+}
